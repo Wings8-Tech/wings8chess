@@ -226,7 +226,7 @@ export class Store {
     'gameStats',
   ];
   
-  private static ONLINE_SESSION_KEY = 'jemachess-online-session';
+  private static ONLINE_SESSION_KEY = 'wings8chess-online-session';
   private static SESSION_EXPIRY = 30 * 60 * 1000; // 30 minutes
 
   constructor(initialState?: Partial<AppState>) {
@@ -842,7 +842,7 @@ export class Store {
       for (const key of this.persistKeys) {
         settings[key] = this.state[key];
       }
-      localStorage.setItem('jemachess-settings', JSON.stringify(settings));
+      localStorage.setItem('wings8chess-settings', JSON.stringify(settings));
     } catch (error) {
       console.warn('Failed to save settings:', error);
     }
@@ -854,12 +854,12 @@ export class Store {
   loadSettings(): void {
     try {
       // Try new key first, then fall back to old key for migration
-      let stored = localStorage.getItem('jemachess-settings');
+      let stored = localStorage.getItem('wings8chess-settings');
       if (!stored) {
         stored = localStorage.getItem('chess-settings');
         if (stored) {
           // Migrate to new key
-          localStorage.setItem('jemachess-settings', stored);
+          localStorage.setItem('wings8chess-settings', stored);
           localStorage.removeItem('chess-settings');
         }
       }

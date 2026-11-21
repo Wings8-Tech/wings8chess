@@ -1,5 +1,5 @@
 /**
- * JemaChess i18n
+ * Wings8Chess i18n
  *
  * The UI is written in French and English in different places. This module
  * keeps a single FR <-> EN dictionary and translates the DOM at runtime, so the
@@ -9,7 +9,7 @@
 export type Lang = 'fr' | 'en';
 export type LangPref = 'system' | 'fr' | 'en';
 
-const LANG_KEY = 'jemachess-lang';
+const LANG_KEY = 'wings8chess-lang';
 
 /** Every visible string, French first, English second. */
 const PAIRS: ReadonlyArray<readonly [string, string]> = [
@@ -59,8 +59,8 @@ const PAIRS: ReadonlyArray<readonly [string, string]> = [
   ['Chess', 'Échecs'],
   ['Built with WebRTC for peer-to-peer gameplay', 'Built with WebRTC for peer-to-peer games'],
   ['Jouez aux échecs', 'Play chess'],
-  ['Rejoignez des milliers d’utilisateurs de JemaChess', 'Join thousands of JemaChess players'],
-  ["Rejoignez des milliers d'utilisateurs de JemaChess", 'Join thousands of JemaChess players'],
+  ['Rejoignez des milliers d’utilisateurs de Wings8Chess', 'Join thousands of Wings8Chess players'],
+  ["Rejoignez des milliers d'utilisateurs de Wings8Chess", 'Join thousands of Wings8Chess players'],
   ['Nouvelle partie', 'New game'],
   ["Contre l'IA", 'Against the AI'],
   ['4 niveaux de difficulté', '4 difficulty levels'],
@@ -191,7 +191,7 @@ const PAIRS: ReadonlyArray<readonly [string, string]> = [
   ['Mise à jour disponible !', 'Update available!'],
   ['Mettre à jour', 'Update'],
   ['Mise à jour...', 'Updating...'],
-  ['JemaChess est disponible hors ligne !', 'JemaChess is available offline!'],
+  ['Wings8Chess est disponible hors ligne !', 'Wings8Chess is available offline!'],
   ['Erreur de chargement', 'Loading error'],
   ['Rafraîchir la page', 'Reload the page'],
 

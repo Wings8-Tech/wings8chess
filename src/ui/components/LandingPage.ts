@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2025 Jema Technology.
+ * Copyright (c) 2025 Wings8 Technology.
  * Distributed under the license specified in the root directory of this project.
  *
  * Landing Page Component
@@ -74,7 +74,7 @@ export class LandingPage {
    */
   private getUserData(): { username: string; elo: number } {
     try {
-      const stored = localStorage.getItem('jemachess-user');
+      const stored = localStorage.getItem('wings8chess-user');
       if (stored) {
         const data = JSON.parse(stored) as { username?: unknown; elo?: unknown };
         return {
@@ -93,7 +93,7 @@ export class LandingPage {
    */
   private saveUserData(username: string, elo: number): void {
     try {
-      localStorage.setItem('jemachess-user', JSON.stringify({
+      localStorage.setItem('wings8chess-user', JSON.stringify({
         username: sanitizeDisplayName(username, 'Invité'),
         elo: Math.round(clampNumber(elo, 0, 10000, 0))
       }));
@@ -536,9 +536,9 @@ export class LandingPage {
     logoSection.className = 'sidebar-logo';
     logoSection.innerHTML = `
       <div class="logo-icon">
-        <img src="/icons/icon-512x512.svg" alt="JemaChess Logo" style="width: 100%; height: 100%; object-fit: contain;" />
+        <img src="/icons/icon-512x512.svg" alt="Wings8Chess Logo" style="width: 100%; height: 100%; object-fit: contain;" />
       </div>
-      <span class="logo-text">JemaChess</span>
+      <span class="logo-text">Wings8Chess</span>
     `;
     sidebarHeader.appendChild(logoSection);
 
@@ -644,7 +644,7 @@ export class LandingPage {
     const footerCredits = document.createElement('div');
     footerCredits.className = 'sidebar-footer';
     footerCredits.innerHTML = `
-      <p class="footer-text">Développé par <a href="https://www.jematechnology.fr/" target="_blank" rel="noopener noreferrer" class="jema-link">Jema Technology</a></p>
+      <p class="footer-text">Développé par <a href="https://www.wings8.org/" target="_blank" rel="noopener noreferrer" class="wings8-link">Wings8 Technology</a></p>
       <p class="footer-year">© 2025 • Open Source & Libre</p>
     `;
     bottomSection.appendChild(footerCredits);
@@ -670,7 +670,7 @@ export class LandingPage {
     heroContent.className = 'hero-content';
     heroContent.innerHTML = `
       <h1 class="hero-title">Jouez aux échecs</h1>
-      <p class="hero-subtitle">Rejoignez des milliers d'utilisateurs de JemaChess</p>
+      <p class="hero-subtitle">Rejoignez des milliers d'utilisateurs de Wings8Chess</p>
       <div class="hero-actions">
         <button class="hero-cta primary" data-action="get-started">
           <span>Nouvelle partie</span>

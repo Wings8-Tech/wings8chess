@@ -76,9 +76,9 @@ async function initializeApp(): Promise<void> {
       // Ignore in environments without import.meta.env
     }
     
-    console.log('JemaChess initialized successfully');
+    console.log('Wings8Chess initialized successfully');
   } catch (error) {
-    console.error('Failed to initialize JemaChess:', error);
+    console.error('Failed to initialize Wings8Chess:', error);
     showErrorMessage('Failed to initialize the application. Please refresh the page.');
   }
 }
@@ -130,7 +130,7 @@ function initPWA(): void {
 
   // When the app is ready for offline use (first install)
   onOfflineReady(() => {
-    Toast.success('JemaChess est disponible hors ligne !', 4000);
+    Toast.success('Wings8Chess est disponible hors ligne !', 4000);
   });
 
   // Monitor connectivity and show status changes

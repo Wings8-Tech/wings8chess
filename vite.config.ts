@@ -43,8 +43,8 @@ export default defineConfig({
         'pieces/**/*.svg',
       ],
       manifest: {
-        name: 'JemaChess',
-        short_name: 'JemaChess',
+        name: 'Wings8Chess',
+        short_name: 'Wings8Chess',
         description: "Jeu d'échecs moderne avec IA et multijoueur",
         theme_color: '#7d82ea',
         background_color: '#0a0a0f',

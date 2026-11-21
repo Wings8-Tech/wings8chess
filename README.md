@@ -1,6 +1,6 @@
 <div align="center">
 
-# ♟️ JemaChess
+# ♟️ Wings8Chess
 
 **Modern, offline-first chess — in your browser.**
 
@@ -20,9 +20,9 @@ peer-to-peer WebRTC. Beautiful glassmorphism UI, light & dark themes, installabl
 
 ---
 
-## ✨ Why JemaChess?
+## ✨ Why Wings8Chess?
 
-JemaChess is a **zero-backend** chess app. There is no server to run and no account to
+Wings8Chess is a **zero-backend** chess app. There is no server to run and no account to
 create: online games connect two browsers directly over **WebRTC** (PeerJS + GUN for
 signaling), and everything else — AI, board, analysis — runs locally in your browser.
 Install it as a PWA and it keeps working **fully offline**.
@@ -123,8 +123,8 @@ Everything the app needs at runtime is bundled: no backend, no database, no API 
 
 ```bash
 # Clone
-git clone https://github.com/JemaOS/jemachess.git
-cd jemachess
+git clone https://github.com/Wings8-Tech/wings8chess.git
+cd wings8chess
 
 # Install dependencies
 npm install
@@ -189,8 +189,8 @@ Released under the **MIT License** — see [LICENSE](LICENSE).
 
 <div align="center">
 
-**Made with ❤️ by [Jema Technology](https://www.jematechnology.fr/)**
+**Made with ❤️ by [Wings8 Technology](https://www.wings8.org/)**
 
-<sub>♟️ JemaChess — échecs modernes, hors-ligne, en pair-à-pair. Aucun serveur, aucun compte : tout se passe dans votre navigateur.</sub>
+<sub>♟️ Wings8Chess — échecs modernes, hors-ligne, en pair-à-pair. Aucun serveur, aucun compte : tout se passe dans votre navigateur.</sub>
 
 </div>

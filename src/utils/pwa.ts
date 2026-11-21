@@ -189,7 +189,7 @@ export class PWAInstaller {
       
       // Persist installation flag
       this.markAsInstalled();
-      console.log('[PWA] JemaChess was installed');
+      console.log('[PWA] Wings8Chess was installed');
     });
 
     // Check if already running as PWA
@@ -298,7 +298,7 @@ export class PWAInstaller {
    * Check if the app was installed (persisted check)
    */
   private checkIfInstalled(): boolean {
-    const installed = localStorage.getItem('jemachess-installed');
+    const installed = localStorage.getItem('wings8chess-installed');
     if (installed === 'true') {
       return true;
     }
@@ -309,7 +309,7 @@ export class PWAInstaller {
    * Mark the app as installed in localStorage
    */
   markAsInstalled(): void {
-    localStorage.setItem('jemachess-installed', 'true');
+    localStorage.setItem('wings8chess-installed', 'true');
     this.isInstalled = true;
   }
 }

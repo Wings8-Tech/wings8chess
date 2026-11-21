@@ -10,9 +10,9 @@
     <!-- PWA Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="JemaChess" />
+    <meta name="apple-mobile-web-app-title" content="Wings8Chess" />
     <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="application-name" content="JemaChess" />
+    <meta name="application-name" content="Wings8Chess" />
     <meta name="msapplication-TileColor" content="#7d82ea" />
     <meta name="msapplication-TileImage" content="/icons/icon-192x192.svg" />
     <meta name="msapplication-tap-highlight" content="no" />
@@ -25,7 +25,7 @@
         var root = document.documentElement;
         var theme = 'dark';
         try {
-          var saved = localStorage.getItem('jemachess-theme');
+          var saved = localStorage.getItem('wings8chess-theme');
           var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
           theme = saved === 'light' || saved === 'dark' ? saved : (prefersDark ? 'dark' : 'light');
         } catch (error) {
@@ -61,7 +61,7 @@
     <link rel="apple-touch-icon" sizes="167x167" href="/icons/icon-192x192.svg" />
     <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-192x192.svg" />
     
-    <title>JemaChess</title>
+    <title>Wings8Chess</title>
     
     <style>
       /* Minimal boot styles - the application theme lives in src/ui/styles */
@@ -170,7 +170,7 @@
     <div id="app">
       <div class="loading">
         <div class="loading-spinner"></div>
-        <span class="loading-text">Chargement de JemaChess...</span>
+        <span class="loading-text">Chargement de Wings8Chess...</span>
       </div>
     </div>
     <script type="module" src="/src/main.ts"></script>

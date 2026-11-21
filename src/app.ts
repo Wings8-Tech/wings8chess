@@ -121,7 +121,7 @@ export class App {
    * Initialize the application
    */
   async init(): Promise<void> {
-    console.log('Initializing JemaChess...');
+    console.log('Initializing Wings8Chess...');
     
     // Load settings from storage
     store.loadSettings();
@@ -146,7 +146,7 @@ export class App {
       this.showScreen('landing');
     }
     
-    console.log('JemaChess initialized successfully');
+    console.log('Wings8Chess initialized successfully');
   }
   
   /**

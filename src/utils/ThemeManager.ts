@@ -12,7 +12,7 @@
 export type ThemePreference = 'system' | 'light' | 'dark';
 export type ResolvedTheme = 'light' | 'dark';
 
-const STORAGE_KEY = 'jemachess-theme';
+const STORAGE_KEY = 'wings8chess-theme';
 const DARK_THEME_COLOR = '#0a0a0f';
 const LIGHT_THEME_COLOR = '#f2f4fa';
 
@@ -208,7 +208,7 @@ class ThemeManager {
     }
 
     document.dispatchEvent(
-      new CustomEvent('jemachess:themechange', {
+      new CustomEvent('wings8chess:themechange', {
         detail: { theme: this.resolved, preference: this.preference },
       })
     );

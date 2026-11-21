@@ -1,4 +1,4 @@
-/* Copyright (c) 2025 Jema Technology.
+/* Copyright (c) 2025 Wings8 Technology.
  * Distributed under the license specified in the root directory of this project.
  */
 
@@ -409,14 +409,14 @@
   font-weight: 600;
 }
 
-.sidebar-footer .jema-link {
+.sidebar-footer .wings8-link {
   color: var(--color-primary);
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease;
 }
 
-.sidebar-footer .jema-link:hover {
+.sidebar-footer .wings8-link:hover {
   color: var(--color-primary-light);
   text-decoration: underline;
 }

@@ -268,7 +268,7 @@ function readStoredPref(): LangPref {
   } catch {
     // storage unavailable
   }
-  return 'system';
+  return 'en';
 }
 
 function systemLang(): Lang {

@@ -60,7 +60,7 @@ function getCSSVariable(name: string, fallback: string): string {
  */
 function getArrowConfigs(): Record<string, ArrowConfig> {
   // Get theme colors from CSS variables - consistent purple theme
-  const primaryColor = getCSSVariable('--color-primary', '#7d82ea');
+  const primaryColor = getCSSVariable('--color-primary', '#0A1F4A');
   const primaryLight = getCSSVariable('--color-primary-light', '#9a9ef0');
   
   return {

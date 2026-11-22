@@ -29,7 +29,7 @@ const DIFFICULTY_OPTIONS: DifficultyOption[] = [
     description: 'Perfect for beginners. Makes occasional mistakes.',
     rating: '~800',
     icon: `<span class="star-rating">★</span>`,
-    color: '#7d82ea',
+    color: '#0A1F4A',
   },
   {
     id: 'medium',
@@ -37,7 +37,7 @@ const DIFFICULTY_OPTIONS: DifficultyOption[] = [
     description: 'A balanced challenge. Plays solid moves.',
     rating: '~1200',
     icon: `<span class="star-rating">★★</span>`,
-    color: '#7d82ea',
+    color: '#0A1F4A',
   },
   {
     id: 'hard',
@@ -45,7 +45,7 @@ const DIFFICULTY_OPTIONS: DifficultyOption[] = [
     description: 'Strong play. Finds tactical combinations.',
     rating: '~1600',
     icon: `<span class="star-rating">★★★</span>`,
-    color: '#7d82ea',
+    color: '#0A1F4A',
   },
   {
     id: 'master',

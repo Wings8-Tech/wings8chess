@@ -15,9 +15,9 @@
   color-scheme: dark;
 
   /* Primary Colors */
-  --color-primary: #7d82ea;
-  --color-primary-light: #9a9ef0;
-  --color-primary-dark: #6366c0;
+  --color-primary: #0A1F4A;
+  --color-primary-light: #4C6B9B;
+  --color-primary-dark: #061533;
   --color-primary-rgb: 125, 130, 234;
 
   /* Neutral Colors */
@@ -129,9 +129,9 @@
 :root[data-theme='light'] {
   color-scheme: light;
 
-  --color-primary: #565bd1;
-  --color-primary-light: #4b50c4;
-  --color-primary-dark: #4348b0;
+  --color-primary: #0A1F4A;
+  --color-primary-light: #4C6B9B;
+  --color-primary-dark: #061533;
   --color-primary-rgb: 86, 91, 209;
 
   --color-background: #f2f4fa;

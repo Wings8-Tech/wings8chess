@@ -46,7 +46,7 @@ export default defineConfig({
         name: 'Wings8Chess',
         short_name: 'Wings8Chess',
         description: "Jeu d'échecs moderne avec IA et multijoueur",
-        theme_color: '#7d82ea',
+        theme_color: '#F99634',
         background_color: '#0a0a0f',
         display: 'standalone',
         orientation: 'any',

@@ -15,7 +15,7 @@
   color-scheme: dark;
 
   /* Primary Colors */
-  --color-primary: #0A1F4A;
+  --color-primary: #0B1F4B;
   --color-primary-light: #4C6B9B;
   --color-primary-dark: #061533;
   --color-primary-rgb: 125, 130, 234;
@@ -129,7 +129,7 @@
 :root[data-theme='light'] {
   color-scheme: light;
 
-  --color-primary: #0A1F4A;
+  --color-primary: #0B1F4B;
   --color-primary-light: #4C6B9B;
   --color-primary-dark: #061533;
   --color-primary-rgb: 86, 91, 209;

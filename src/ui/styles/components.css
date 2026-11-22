@@ -254,7 +254,7 @@
   gap: var(--spacing-md);
 }
 
-/* Toast notifications - Bottom right position with #7d82ea theme */
+/* Toast notifications - Bottom right position with #F99634 theme */
 .toast-container {
   position: fixed;
   bottom: 20px;

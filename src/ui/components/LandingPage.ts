@@ -749,7 +749,7 @@ export class LandingPage {
           </linearGradient>
           <linearGradient id="pieceGradient" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" style="stop-color:#8b8fe8"/>
-            <stop offset="100%" style="stop-color:#0A1F4A"/>
+            <stop offset="100%" style="stop-color:#0B1F4B"/>
           </linearGradient>
           <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
             <feGaussianBlur stdDeviation="8" result="coloredBlur"/>

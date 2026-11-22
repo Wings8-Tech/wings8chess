@@ -15,10 +15,10 @@
   color-scheme: dark;
 
   /* Primary Colors */
-  --color-primary: #0B1F4B;
-  --color-primary-light: #4C6B9B;
-  --color-primary-dark: #061533;
-  --color-primary-rgb: 125, 130, 234;
+  --color-primary: #F99634;
+  --color-primary-light: #FEBF69;
+  --color-primary-dark: #E2882E;
+  --color-primary-rgb: 249, 150, 52;
 
   /* Neutral Colors */
   --color-background: #0a0a0f;

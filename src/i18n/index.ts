@@ -9,7 +9,7 @@
 export type Lang = 'fr' | 'en';
 export type LangPref = 'system' | 'fr' | 'en';
 
-const LANG_KEY = 'wings8chess-lang';
+const LANG_KEY = 'wings8chess-lang-v2';
 
 /** Every visible string, French first, English second. */
 const PAIRS: ReadonlyArray<readonly [string, string]> = [

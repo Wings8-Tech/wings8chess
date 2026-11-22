@@ -291,8 +291,10 @@
   width: 90%;
   margin: auto;
   min-height: auto;
-  max-height: none;
-  overflow-y: visible;
+  max-height: calc(100dvh - 2rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
   display: flex;
   flex-direction: column;
   border-radius: var(--radius-lg);
@@ -316,12 +318,12 @@
 }
 
 .settings-panel::-webkit-scrollbar-thumb {
-  background: rgba(125, 130, 234, 0.4);
+  background: rgba(var(--color-primary-rgb), 0.4);
   border-radius: 3px;
 }
 
 .settings-panel::-webkit-scrollbar-thumb:hover {
-  background: rgba(125, 130, 234, 0.6);
+  background: rgba(var(--color-primary-rgb), 0.6);
 }
 
 .settings-header {
